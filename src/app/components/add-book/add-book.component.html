@@ -1,0 +1,13 @@
+<form 
+  [formGroup]="addForm"
+  (submit)="addBook()">
+  <label for="">Image Url</label>
+  <input type="text" formControlName="imgUrl">
+  
+  <label for="">Title</label>
+  <input type="text" formControlName="title">
+  
+  <label for="">Description</label>
+  <input type="text" formControlName="description">
+  <button>Add Book</button>
+</form>
